@@ -1,6 +1,6 @@
 import random
 
-print("🎯 Number Guessing Game")
+print("Number Guessing Game")
 
 number = random.randint(1, 100)
 attempts = 0
@@ -14,5 +14,5 @@ while True:
     elif guess > number:
         print("Too high!")
     else:
-        print(f"🎉 Correct! You guessed it in {attempts} attempts.")
+        print(f"Correct! You guessed it in {attempts} attempts.")
         break
